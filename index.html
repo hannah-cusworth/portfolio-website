@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -134,12 +135,148 @@
 									</h2>
 								</header>
 								
+								<h3>Job Manager</h3>
 									<p>
-										Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-										Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-										luctus elit eget interdum.
+										This is a job management web application that I built for my Dad who works as a locksmith. 
+										He needed a way of collecting and organising the details of his clients, addresses and job descriptions in one place. 
 									</p>
-								
+	<!-- Slideshow container -->
+	
+	<div class="slideshow-container">
+
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <div class="numbertext">Authentication</div>
+	  <img src="images/gifs/authentication.gif" style="width:100%">
+	  
+	</div>
+	
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">Forms</div>
+	  <img src="images/gifs/form.gif" style="width:100%">
+	  
+	</div>
+	
+	<div class="mySlides fade">
+	  <div class="numbertext">Job Status</div>
+	  <img src="images/gifs/status.gif" style="width:100%">
+	  
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">Detail Pages</div>
+		<img src="images/gifs/editing.gif" style="width:100%">
+		
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">Search</div>
+		<img src="images/gifs/search.gif" style="width:100%">
+		
+	  </div>
+	
+  
+	<!-- Next and previous buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+ 
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  <br>
+
+  <!-- Text box-->
+  <!-- one -->
+  <div class="caption"> 
+	<p>
+		<span class="caption_head">Authentication:</span> Built using Django's out-of-the-box authentication system. Login is required for all pages except the new job form. No 'sign up'/'forgot password' functionality - all authentication will be controlled by site administrator.
+	</p>
+</div>
+  <!-- two -->
+  <div class="caption"> 
+	<p>
+		<span class="caption_head">Form:</span> Built using Django's ModelForms. Form validation requires a valid UK postcode and contact number. Billing address form is optional.
+	</p>
+</div>
+  <!-- three -->
+  <div class="caption">
+	<p>
+		<span class="caption_head">Job status:</span> Jobs can be moved between the 'Inbox', 'Current' and 'Archived' pages without reloading the page. Each entry can be clicked to open a details page in a new window.
+	</p>
+</div>
+<!-- four -->
+<div class="caption">
+	<p>
+		<span class="caption_head">Detail Pages</span> Detail pages: Client-submitted data is editable. User can navigate between associated jobs, addresses and clients without closing the window.
+	</p>
+</div>
+<!-- five -->
+<div class="caption">
+	<p>
+		<span class="caption_head">Search:</span> Search: User can search by person, address or job from within one page. Jobs are searchable by the details the associated address or client fields.
+	</p>
+</div>
+
+									<div class="row project_lists">
+
+										<div class="col-6 col-12-small">
+											<h4 class="project_heading">Requirements:</h4>
+											<ul>
+												<li>
+													Job detail form for recording client contact information, address details and job description in a standardised format. 
+												</li>
+												<li>
+													Ability to edit client-submitted data.
+												</li>
+												<li>
+													Track the status of jobs.
+												</li>
+												<li>
+													Explore the relationships between clients, addresses and jobs in an intuitive way.
+												</li>
+												<li>
+													Search functionality, including retrieval of a job based upon the client/address associated with it.
+												</li>
+												<li>
+													Authentication covering whole application except the client form.
+												</li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-small project_col">
+											<h4 class="project_heading">Technologies Used:</h4>
+											<ul class="project_list">
+												<li>Python</li>
+												<li>Django</li>
+												<li>HTML/CSS</li>
+												<li>Javascript/Jquery</li>
+												<li>SQL (PostgreSQL)</li>
+												<li>Git/GitHub</li>
+												<li>Linux</li>
+											</ul>
+											<div class="icon-box-project">
+												<div class="icon-boxes-project">
+													<h4>Code</h4>
+													<br>
+													<a href="https://github.com/hannah-cusworth" class="icons fab fa-github-square fa-2x"></a>
+												</div>
+												<div class="icon-boxes-project">
+													<h4>Demo</h4>
+													<br>
+													<a href="" class="icons fas fa-mouse"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+															
 								
 							</article>
 						
@@ -194,6 +331,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/carousel.js"></script>
 
 	</body>
 </html>
