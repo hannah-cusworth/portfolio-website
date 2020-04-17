@@ -117,13 +117,18 @@ input, select, textarea {
 	visibility: visible;
   }
 
+ 
 
 .info {
-	font-size: ;
+	font-size: 13pt;
 	line-height: 1.5;
 }
 .strong{
 	font-weight: bold;
+}
+.middle {
+	font-weight: 500;
+	padding-left: px;
 }
 
 .note {
@@ -144,6 +149,7 @@ input, select, textarea {
 
 .icon-box{
 	padding: 10px;
+	margin: auto;
 }
 
 .icon-boxes{
@@ -174,6 +180,7 @@ input, select, textarea {
 .project_list{
 	margin-top: 5px;
 	margin-bottom: 20px;
+	margin-left: 20px
 	
 	
 }
