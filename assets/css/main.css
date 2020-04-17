@@ -73,138 +73,118 @@ input, select, textarea {
 }
 
 /* Custom */
-.tooltip{
-	position: relative;
-	display: inline-block;
-}
+	/* Tooltip */
+	.tooltip{
+		position: relative;
+		display: inline-block;
+	}
 
-.tooltip .tooltiptext {
-	font-weight: 300;
-	font-family: 'Source Sans Pro', sans-serif;
-	visibility: hidden;
-	position: absolute;
-    background: #222222;
-	color: #ffffff;
-	font-size: 0.3em;
-	line-height: 30px;
-	height: 30px;
-	width: 50px;
-	left: 50%;
-	top: 100%;
-	margin-left: -25.6px;
-	text-align: center;
-	
-	
-	
-	
- 
-  	
- 	
-}
+	.tooltip .tooltiptext {
+		font-weight: 300;
+		font-family: 'Source Sans Pro', sans-serif;
+		visibility: hidden;
+		position: absolute;
+		background: #222222;
+		color: #ffffff;
+		font-size: 0.3em;
+		line-height: 30px;
+		height: 30px;
+		width: 50px;
+		left: 50%;
+		top: 100%;
+		margin-left: -25.6px;
+		text-align: center; 	
+		}
 
-.tooltip .tooltiptext::after {
-	content: " ";
-  position: absolute;
-  bottom: 100%;  /* At the top of the tooltip */
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-  }
+		.tooltip .tooltiptext::after {
+			content: " ";
+		position: absolute;
+		bottom: 100%;  /* At the top of the tooltip */
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: transparent transparent black transparent;
+		}
 
-.tooltip:hover .tooltiptext {
-	visibility: visible;
-  }
+		.tooltip:hover .tooltiptext {
+			visibility: visible;
+		}
 
- 
+	/* About Page */
 
-.info {
-	font-size: 13pt;
-	line-height: 1.5;
-}
-.strong{
-	font-weight: bold;
-}
-.middle {
-	font-weight: 500;
-	padding-left: px;
-}
+	.info {
+		font-size: 13pt;
+		line-height: 1.5;
+	}
+	.strong{
+		font-weight: bold;
+	}
+	.middle {
+		font-weight: 500;
+		padding-left: px;
+	}
 
-.note {
-	font-size: 65%;
-	line-height:1;
-	text-align: center;
-}
-.icons{
-	color: black;
-	
-}
-#heroku {
-	height: 40px;
-	width: 40px;
-}
+	/* Icons */
+	.icons{
+		color: black;
+	}
 
+	.icon-box{
+		padding: 10px;
+		margin: auto;
+	}
 
+	.icon-boxes{
+		display: inline;
+		padding: 10px;
+		float: right;
 
-.icon-box{
-	padding: 10px;
-	margin: auto;
-}
+	}
 
-.icon-boxes{
-	display: inline;
-	padding: 10px;
-	float: right;
+	/* Work page */
+	.headings{
+		padding: 10px;
+	}
 
-}
+	.project_lists{
+		font-size:11pt;
+		line-height: 20px;
+		padding-left: 15px;
+		
+		
+	}
+	.project-requirements{
+		font-size: 12pt;
+		line-height:25px;
+	}
+	.project-tech {
+		border-left: 10px;
+	}
+	.project_list{
+		margin-top: 5px;
+		margin-bottom: 20px;
+		margin-left: 20px
+		
+	}
 
-.headings{
-	padding: 10px;
-}
+	.icon-boxes-project {
+		display: inline;
+		float: left;
+		padding: 0px 10px;
+		padding-bottom: 10px
 
-.project_lists{
-	font-size:11pt;
-	line-height: 20px;
-	padding-left: 15px;
-	
-	
-}
-.project-requirements{
-	font-size: 12pt;
-	line-height:25px;
-}
-.project-tech {
-	border-left: 10px;
-}
-.project_list{
-	margin-top: 5px;
-	margin-bottom: 20px;
-	margin-left: 20px
-	
-	
-}
+	}
 
-.icon-boxes-project {
-	display: inline;
-	float: left;
-	padding: 0px 10px;
-	padding-bottom: 10px
+	.icon-box-project {
+		display: inline;
 
-}
-
-.icon-box-project {
-	display: inline;
-
-}
+	}
 
 
-.project_heading {
-	
-}
 
 
-/* Carosel */
+/* Carosel -- Adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
 * {box-sizing:border-box}
 
 /* Slideshow container */
