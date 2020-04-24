@@ -112,7 +112,9 @@ input, select, textarea {
 		}
 
 	/* About Page */
-
+	#about {
+		font-size: 12pt;
+	}
 	.info {
 		font-size: 13pt;
 		line-height: 1.5;
