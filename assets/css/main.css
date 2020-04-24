@@ -115,6 +115,9 @@ input, select, textarea {
 	#about {
 		font-size: 12pt;
 	}
+	#about_strong {
+		font-size: 14pt;
+	}
 	.info {
 		font-size: 13pt;
 		line-height: 1.5;
