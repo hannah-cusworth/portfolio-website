@@ -112,7 +112,7 @@ input, select, textarea {
 		}
 
 	/* About Page */
-	#about {
+	.about {
 		font-size: 12pt;
 	}
 	#about_strong {
@@ -136,16 +136,24 @@ input, select, textarea {
 	}
 
 	.icon-box{
-		padding: 10px;
+		padding: 20px 10px 10px 10px;
 		margin: auto;
+		width: 50%;
+		text-align: center;
 	}
 
 	.icon-boxes{
 		display: inline;
 		padding: 10px;
-		float: right;
-
 	}
+
+	.icon_home {
+		display:inline;
+		padding: 20px 10px 10px;
+		
+	}
+	
+	
 
 	/* Work page */
 	.headings{
@@ -186,7 +194,10 @@ input, select, textarea {
 
 	}
 
-
+/* Home */
+.title {
+	text-align: center;
+}
 
 
 /* Carosel -- Adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp */
