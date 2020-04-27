@@ -130,14 +130,23 @@ input, select, textarea {
 		font-size: 14pt;
 	}
 
-	.info span {
+	.info p {
+		font-size: 12pt;
+	}
+	
+	
+
+	.info span, .info a {
 		display: inline;
-		font-style: italic;
 		font-size: 12pt;
 		float: right;
 	}
+	.info h6 span
+	{
+		font-style: italic;
+	}
 
-	#alevels {
+	#alevels,  {
 
 		line-height: 1em;
 	}
