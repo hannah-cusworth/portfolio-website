@@ -141,10 +141,7 @@ input, select, textarea {
 		font-size: 12pt;
 		float: right;
 	}
-	.info h6 span
-	{
-		font-style: italic;
-	}
+	
 
 	#alevels  {
 		line-height: 1em;
