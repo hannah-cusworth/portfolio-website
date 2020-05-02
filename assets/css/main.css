@@ -112,7 +112,7 @@ input, select, textarea {
 		}
 
 	/* About Page */
-	.about {
+	.main {
 		font-size: 14pt;
 		line-height: 1.5;
 		margin-top: 0;
@@ -195,38 +195,36 @@ input, select, textarea {
 		padding: 1em;
 		
 	}
-
-	.project_lists{
-		font-size:11pt;
-		line-height: 20px;
-		padding-left: 15px;
-		
-		
-	}
-	.project-requirements{
-		font-size: 12pt;
-		line-height:25px;
-	}
-	.project-tech {
-		border-left: 10px;
-	}
-	.project_list{
-		margin-top: 5px;
+	.project-title {
+		line-height: 30px;
 		margin-bottom: 20px;
-		margin-left: 20px
-		
 	}
+	.tech {
+		width: 30px;
+		height: 30px;
+		float: right;
+		margin: 0px 5px;
+	}
+	
+
+	.technologies {
+		float:right;
+	}
+	
+	
 
 	.icon-boxes-project {
-		display: inline;
-		float: left;
+		
+		
 		padding: 0px 10px;
-		padding-bottom: 10px
+		
 
 	}
 
 	.icon-box-project {
-		display: inline;
+		display: block;
+		margin: auto;
+		width: 50%;
 
 	}
 
@@ -246,6 +244,7 @@ input, select, textarea {
   max-width: 600px;
   position: relative;
   margin: auto;
+  padding-top: 15px;
   
 }
 
@@ -312,8 +311,8 @@ input, select, textarea {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;

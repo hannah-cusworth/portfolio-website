@@ -40,7 +40,7 @@
 									<div class="icon-box">
 									
 										<a href="https://github.com/hannah-cusworth" class="icon_home icons fab fa-github-square fa-2x"></a>
-										<a href="https://www.linkedin.com/in/hannah-cusworth-ba24771a6/" class="icon_home icons fab fa-linkedin fa-2x"></a>
+										<a href="www.linkedin.com/in/hannah-cusworth-ba24771a6" class="icon_home icons fab fa-linkedin fa-2x"></a>
 									
 									</div>
 
@@ -61,21 +61,21 @@
 							
 							<div class="row">
 								<div class="col-7 col-12-medium">															
-										<p class="about" id="about_strong">
+										<p class="main">
 											I'm a history graduate and self-taught programmer currently 
 											looking for my first job in the technology sector. Having spent 
 											the last few months self-teaching, I'm particularly excited to 
 											understand how software is developed in a commercial setting and 
 											learn from the expertise of other developers.  	
 										</p>
-										<p class="about">
+										<p class="main">
 											I first caught the software bug when I challenged myself to 
 											build a website about my Master's thesis. Intrigued, I enrolled 
 											on Harvard's Introduction to Computer Science program online, 
 											which aims to teach its students to how to think algorithmically 
 											and solve problems efficiently over the course of 8 weeks.
 										</p>
-										<p class="about">
+										<p class="main">
 											Initially, I thought coding might be a challenging new hobby but  
 											by the time I finished the course, I had come to realise that 
 											programming in fact offered me everything I was looking for 
@@ -83,7 +83,7 @@
 											a collaborative work setting and develop a set of skills with 
 											endless problem solving potential. 
 										</p>					
-										<p class="about">
+										<p class="main">
 											Thank you for taking the time to look at my work, I really appreciate it.
 										</p>
 								</div>
@@ -155,11 +155,28 @@
 									</h2>
 								</header>
 								
-								<h3>Job Manager</h3>
-									<p>
+								<h3 class="project-title">Job Manager
+								<span class="technologies"> 
+									<img class="tech" type="image/png" src="images/icons/icons8-python-50-2.png">
+									<img class="tech" type="image/png" src="images/icons/icons8-django-50.png"> 
+									<img class="tech" type="image/png" src="images/icons/icons8-postgresql-50.png"> 									<img class="tech"type="image/png" src="images/icons/icons8-javascript-50.png"> 
+									<img class="tech" type="image/png" src="images/icons/icons8-jquery-50.png">
+									<img class="tech" type="image/png" src="images/icons/icons8-heroku-50.png"> 
+								 </span>
+								</h3> 
+									<p class="main">
 										This is a job management web application that I built for my Dad who works as a locksmith. 
 										He needed a way of collecting and organising the details of his clients, addresses and job descriptions in one place. 
 									</p>
+									<p class="main">
+										The software performs three main functions: it allows new clients to submit their contact information, address details
+										and job description in a standardised format; tracks the status of jobs, and; provides an interface for editing, searching
+										and exploring the relational data in an intutive way. 
+									</p>
+									
+									
+									
+									
 									<!-- Slideshow container -->
 									
 									<div class="slideshow-container">
@@ -235,69 +252,30 @@
 								<!-- four -->
 								<div class="caption">
 									<p>
-										<span class="caption_head">Detail Pages</span> Detail pages: Client-submitted data is editable. User can navigate between associated jobs, addresses and clients without closing the window.
+										<span class="caption_head">Detail Pages</span> Client-submitted data is editable. User can navigate between associated jobs, addresses and clients without closing the window.
 									</p>
 								</div>
 								<!-- five -->
 								<div class="caption">
 									<p>
-										<span class="caption_head">Search:</span> Search: User can search by person, address or job from within one page. Jobs are searchable by the details the associated address or client fields.
+										<span class="caption_head">Search:</span>User can search by person, address or job from within one page. Jobs are searchable by the details the associated address or client fields.
 									</p>
 								</div>
-
-								<div class="row project_lists">
-									<div class="col-8 col-12-small project-requirements">
-										<h4 class="project_heading">Requirements:</h4>
-										<ul>
-											<li>
-												Job detail form for recording client contact information, address details and job description in a standardised format. 
-											</li>
-											<li>
-												Ability to edit client-submitted data.
-											</li>
-											<li>
-												Track the status of jobs.
-											</li>
-											<li>
-												Explore the relationships between clients, addresses and jobs in an intuitive way.
-											</li>
-											<li>
-												Search functionality, including retrieval of a job based upon the client/address associated with it.
-											</li>
-											<li>
-												Authentication covering whole application except the client form.
-											</li>
-										</ul>
+								<div class="icon-box-project ">
+									<div class="icon-boxes-project tooltip ">
+										<a href="https://github.com/hannah-cusworth" class="icons fab fa-github-square fa-2x ">
+										<span class="tooltiptext">Code</span>
+										</a>
 									</div>
-									<div class="col-4 col-12-small project-tech">
-										<h4 class="project_heading">Technologies Used:</h4>
-										<ul class="project_list">
-											<li>Python</li>
-											<li>Django</li>
-											<li>HTML/CSS</li>
-											<li>Javascript/Jquery</li>
-											<li>SQL (PostgreSQL)</li>
-											<li>Git/GitHub</li>
-											<li>Linux</li>
-										</ul>
-											
-										<div class="icon-box-project ">
-											<div class="icon-boxes-project tooltip ">
-												<a href="https://github.com/hannah-cusworth" class="icons fab fa-github-square fa-4x ">
-												<span class="tooltiptext">Code</span>
-												</a>
-											</div>
-											<div class="icon-boxes-project tooltip">
-												<a href="https://cml-job-manager.herokuapp.com/login?next=/" class=" icons fas fa-external-link-square-alt fa-4x">
-												<span class="tooltiptext">
-													Demo
-												</span>
-												</a>
-											</div>
-										</div>
+									<div class="icon-boxes-project tooltip">
+										<a href="https://cml-job-manager.herokuapp.com/login?next=/" class=" icons fas fa-external-link-square-alt fa-2x">
+										<span class="tooltiptext">
+											Demo
+										</span>
+										</a>
 									</div>
-								</div>
-															
+							</div>
+														
 							</article>
 						
 						
