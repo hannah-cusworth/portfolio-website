@@ -167,6 +167,12 @@ input, select, textarea {
 		color: rgb(34, 34, 34);
 	}
 
+	#demolink{
+		width: 27px;
+		height: 27px;
+		margin-left: 8px;
+	}
+
 	.icon-box{
 		padding-top: 20px;
 		margin: auto;
@@ -193,7 +199,7 @@ input, select, textarea {
 	.links{
 		width: 30px;
 		height: 30px;
-		margin: 0px 10px;
+	
 	}
 
 	.headings{
