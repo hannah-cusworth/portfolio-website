@@ -190,10 +190,10 @@ input, select, textarea {
 	/* Work page */
 	
 	
-	.link{
-		font-size: 16pt;
-		padding: 0 10px 0 10px;
-		display: inline;
+	.links{
+		width: 30px;
+		height: 30px;
+		margin: 0px 10px;
 	}
 
 	.headings{
