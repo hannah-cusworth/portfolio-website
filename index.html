@@ -140,7 +140,7 @@
 												<a href="https://www.linkedin.com/in/hannah-cusworth-ba24771a6/" class="icons fab fa-linkedin fa-2x"></a>
 											</div>
 											<div class="icon-boxes" >
-												<button>Download CV</button>
+												<button type="submit" onclick="window.open('images/Hannah Cusworth CV.pdf')"><i class="fa fa-download"></i>&ensp; Download CV</button>
 											</div>
 									</div>
 								</div>
@@ -184,7 +184,10 @@
 									<p class="main">
 										The software performs three main functions: it allows new clients to submit their contact information, address details
 										and job description in a standardised format; tracks the status of jobs, and; provides an interface for editing, searching
-										and exploring the relational data in an intutive way. 
+										and exploring the relational data in an intuitive way. 
+									</p>
+									<p class="main">
+										All server-side functionality is fully tested (test suite of 90+ unit tests).
 									</p>
 									
 									
@@ -194,37 +197,27 @@
 									
 									<div class="slideshow-container">
 
-									<!-- Full-width images with number and caption text -->
+									<!-- Full-width images with caption text -->
 									<div class="mySlides fade">
-									<div class="numbertext">Authentication</div>
-									<img src="images/gifs/authentication.gif" style="width:100%">
-									
+									<video width=100% autoplay loop>
+										 <source src="images/videos/Status.mp4" type="video/mp4">
+									</video>
 									</div>
 									
 									
 									<div class="mySlides fade">
-									<div class="numbertext">Forms</div>
-									<img src="images/gifs/form.gif" style="width:100%">
-									
+									<video width=100% autoplay loop>
+										 <source src="images/videos/Edit.mp4" type="video/mp4">
+									</video>
 									</div>
 									
 									<div class="mySlides fade">
-									<div class="numbertext">Job Status</div>
-									<img src="images/gifs/status.gif" style="width:100%">
+									<video width=100% autoplay loop>
+										 <source src="images/videos/Search.mp4" type="video/mp4">
+									</video>
 									
-									</div>
-
-									<div class="mySlides fade">
-										<div class="numbertext">Detail Pages</div>
-										<img src="images/gifs/editing.gif" style="width:100%">
-										
 									</div>
 
-									<div class="mySlides fade">
-										<div class="numbertext">Search</div>
-										<img src="images/gifs/search.gif" style="width:100%">
-										
-									</div>
 									
 								
 									<!-- Next and previous buttons -->
@@ -238,8 +231,6 @@
 									<span class="dot" onclick="currentSlide(1)"></span>
 									<span class="dot" onclick="currentSlide(2)"></span>
 									<span class="dot" onclick="currentSlide(3)"></span>
-									<span class="dot" onclick="currentSlide(4)"></span>
-									<span class="dot" onclick="currentSlide(5)"></span>
 								</div>
 								
 
@@ -247,33 +238,25 @@
 								<!-- one -->
 								<div class="caption"> 
 									<p>
-										<span class="caption_head">Authentication:</span> Built using Django's out-of-the-box authentication system. Login is required for all pages except the new job form. No 'sign up'/'forgot password' functionality - all authentication will be controlled by site administrator.
+										<span class="caption_head">Job Status:&ensp;</span>
+										New jobs are assigned the status of "Inbox" upon creation so they can edited, supplimented or deleted as required before they become "Current". "Current" jobs can then be moved to "Archive" once they are completed. The status of all jobs can be changed from any page.
 									</p>
 								</div>
 								<!-- two -->
 								<div class="caption"> 
 									<p>
-										<span class="caption_head">Form:</span> Built using Django's ModelForms. Form validation requires a valid UK postcode and contact number. Billing address form is optional.
+										<span class="caption_head">Detail Pages:&ensp;</span>
+										Clicking on a job, client or address will open a details page. Once the "Edit" button is clicked, all elements in red are fully editable. Clicking this button again will save all changes without the need to refresh the page. To navigate between related objects, click on the related jobs/clients/addresss links (client/address pages), or on the Client/Adress headers (job pages).
 									</p>
 								</div>
 								<!-- three -->
 								<div class="caption">
 									<p>
-										<span class="caption_head">Job status:</span> Jobs can be moved between the 'Inbox', 'Current' and 'Archived' pages without reloading the page. Each entry can be clicked to open a details page in a new window.
+										<span class="caption_head">Searching:&ensp;</span>
+										Searches can be performed by client, address or job. All jobs can be found using the Search tab irrespective of their status. A job can also be found by searching by the associated client name or address detail. All fields return entries containing the search query.
 									</p>
 								</div>
-								<!-- four -->
-								<div class="caption">
-									<p>
-										<span class="caption_head">Detail Pages</span> Client-submitted data is editable. User can navigate between associated jobs, addresses and clients without closing the window.
-									</p>
-								</div>
-								<!-- five -->
-								<div class="caption">
-									<p>
-										<span class="caption_head">Search:</span>User can search by person, address or job from within one page. Jobs are searchable by the details the associated address or client fields.
-									</p>
-								</div>
+								
 							<br>	
 							
 
